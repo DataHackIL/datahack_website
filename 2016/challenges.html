@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="icon"
+      type="image/ico"
+      href="images/fav.ico">
+		<title>DataHack</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="staticassets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="staticassets/css/main.css" />
+		<link href="https://file.myfontastic.com/oXBpAhW2PdxMqAShGGCV59/icons.css" rel="stylesheet">
+		<!--[if lte IE 9]><link rel="stylesheet" href="staticassets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="staticassets/css/ie8.css" /><![endif]-->
+
+
+	</head>
+
+
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo" class:"special"><a href="index.html">DATAHACK</a></h1>
+					<nav id="nav">
+						<ul>
+						<!-- <li><a href="index.html">Home</a></li> -->
+							<li><a class="scrolly" href="index.html#about">Information</a></li>
+							<li><a class="scrolly" href="index.html#data">Data</a></li>
+							<li><a class="scrolly" href="index.html#sponsors">Sponsors </a></li>
+							<li><a class="scrolly" href="index.html#email">Newsletter </a></li>
+							<li><a  href="mentors.html">Mentors </a></li>
+							<li><a  href="qanda">FAQs </a></li>
+							<li><a class="scrolly" href="#footer">Social </a></li>
+							<li><a href="/register" target="_blank" class="button special">Sign Up!</a></li>
+							<li><a href="/login" target="_blank" class="button">Login</a></li>
+						</ul>
+					</nav>
+				</header>
+
+		<!-- Content -->
+
+<section id="info" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Sponsor Challenges</h2>
+						</header>
+						<p>Some of our sponsors are offering cool challenges for you to tackle, with awesome prizes for the winning team of each challenge!</p>
+						<br>
+						<div class="box alt"><div class="row uniform">
+								<section class="2u 6u(medium) 12u$(xsmall)"></section>
+								<section class="8u 6u(medium) 12u$(xsmall)">
+									<!-- <a href="http://www.intel.com/" target="_blank"><img src="images/logos/logo_intel_b.png"></a>'s Social Challenge<br><br> -->
+									<h2>Intel's Social Challenge</h2>
+									<p class="align">
+										Intel will be giving an <a href="https://www.asus.com/Tablets/ASUS-ZenPad-10-Z300M/" target="_blank">
+										ASUS ZenPad 10 Tablet</a> for each member of the team whose project most efffectively utilizes
+										machine learning or data science to address a social issue!
+										<br><br><br>
+									</p>
+								</section>
+								<section class="2u 6u(medium) 12u$(xsmall)"></section>
+							</div>
+							<div class="row uniform">
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<a href="http://www.final.co.il/" target="_blank"><img src="images/logos/logo_taxi.png"></a><br><br>
+									<!-- <h3>Final</h3></a> -->
+									<p class="align">A taxi goes from Chinatown to Times Square. How long will it take to arrive?</p>
+									<p class="align"><b>Data:</b><br>
+									In this challenge, you are given data on taxi rides in New York, containing information
+									on each ride such as the start and end points, date, time of day, distance, etc...
+
+									<br>
+									The data is available <a href = "https://www.dropbox.com/sh/ucx5z0ck5wh4so2/AABBuNoFafDtZ4tuYoZ4qoLOa?dl=0">here</a>.
+									</p>
+
+									<p class="align"><b>Goal:</b><br>
+									Our purpose is to predict the travel time (in logarithmic scale) of a ride. The data is split to train and test sets,
+										and we can use both general data of the ride with local data on similar rides from the train set.</p>
+
+									<p class="align">
+										<b>Prize:</b><br>
+										Bose QuietComfort 35 headphones.
+									</p>
+
+<p class="align"> Participants should send their results to hadari@final.co.il . </p>
+									
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<a href="http://www.wix.com/" target="_blank"><img src="images/logos/logo_wix_b.png"></a><br><br>
+									<p class="align"><b>Background:</b><br>
+										WIX collects logs of user actions within its platform. One of the main tasks of our Data Science team is understanding and predicting user behavior in order to optimize user experience and company revenue. Our team focuses on building models that are compact & efficient without compromising on accuracy.<br>
+										<br><b>Goal:</b><br>
+										Using historical user event data we want to predict if a user performs a specific action ("the target action") within 14 days from the last available activity data.<br>
+										<br><b>Prize:</b><br>
+										Amazon Echo.<br>
+										<br><b>Data:</b><br>
+										We will provide 3 tables for training purposes:
+										<ul style="text-align:left">
+										  <li>Daily aggregated user action counters (user_id, age, action, counter).</li>
+										  <li>Demographic features (user_id, feature1, feature 2, etc…)</li>
+										  <li>Target table containing the age at which the user performed the "target action" (user_id, age). If the user did not perform the action - they will not appear in the table.</li>
+										</ul></p>
+										<p class="align">
+										<span class="align"><b >Assessment:</b></span><br>
+										<!-- <p style="text-align:left"><b>Assessment:</b><br></p><p style="text-align:justify"> -->
+										Teams will also receive data in the same format as tables 1-2 described above, without the target action dataset.
+										For each user_id and the last age seen in the assessment dataset - teams will rank the users by their likelihood to perform the target action within the following 14 days.
+										The winning team will be the one with the highest AUC score.<br><br></p>
+										<p class="align">
+										*User = The person building a site on the WIX platform.<br>
+										**Age = The number of days since user creation date.<br>
+										</p>
+										<p class="align">
+										Participants that wish to work on the challenge should approach the Wix table to obtain access to a server with the data,
+										 and sign this <a href="https://drive.google.com/file/d/0Bz-MJkSVg93LRld0YWcwOGZQS2pDYUJJLWtITnVQS1pKS0ln/view?usp=sharing">nda</a>.
+										 You can also contact them at datascience@wix.com.
+										</p>
+										
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<a href="#" target="http://www.windward.eu/"><img src="images/logos/logo_windward_b.png"></a><br><br>
+									<p class="align"">You remind me of a ship I know...</p>
+
+									<p class="align"">
+										<b>Background:</b><br>
+										Windward is a data and analytics company making sense of ship
+										and cargo movements around the world. Our Data Platform takes raw,
+										unstandardized big data from multiple sources – which is often partial and
+										 unreliable - and uses ML to fuse the data and analyze each ship's actual
+										  behavior to determine ship identities and what they are doing.
+										   This helps to create actionable, insightful knowledge about what’s
+										    happening at sea from otherwise hard-to-interpret, noisy data.</p>
+
+									<p class="align"">
+										One of the most important data features is ship type. A ship type describes what class of ship it is and could be anything from a small fishing vessel to a massive oil tanker. Most ships report their true type but some don’t, which means their designation labels are either incorrect or missing. In this case, we have to infer it ourselves.</p>
+
+									<p class="align"">
+										<br><b>Goal:</b><br>
+										In our data challenge you will help us predict ship type according to ship behavior.
+										 We will provide information about ship activities (meetings with other vessels, port visits,
+										  etc.). Some ships will be labeled with their type and other labels will be missing.
+										   The challenge  is to infer the type of unlabeled ships based on labeled ships exhibiting
+										    similar behavior. The underlying assumption is that ships engaged in similar
+										     activities (e.g. frequenting the same ports, meeting with the same ships) are more
+										      likely to be of the same type.</p>
+
+									<p class="align"">This is, in a way, the ship version of “people similar to you” used on social websites. So, are you up to the challenge?</p>
+
+									<p class="align"">
+										<br><b>Data:</b><br>
+										The data alongside relevant explenations are available with the Windward table.	
+									</p>
+
+
+									<p class="align"">
+										<br><b>Prize:</b><br>
+										Sea activity voucher.
+									</p>
+
+								</section>
+
+
+
+							</div>
+
+
+					</div>
+				</section>
+
+
+	<!-- Footer -->
+				<footer id="footer">
+				 Social
+					<ul class="icons">
+						<li><a href=" https://www.snapchat.com/add/datahack" class="icon icon-snap" target="_blank"><span class="label">SnapChat</span></a></li>
+						<li><a href="http://www.meetup.com/DataHack" class="icon icon-meetup" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://twitter.com/datahackil" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/datahackil" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/company/10256604" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></l>
+						<li><a href="mailto:contact@datahack-il.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; DataHack 2016 All rights reserved.</li><li>Thanks to HTML5 UP</li> <li>contact@datahack-il.com</li>
+					</ul>
+				</footer>
+
+		</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$(".slidingDiv").hide();
+$(".show_hide").show();
+
+$('.show_hide').click(function(){
+$(".slidingDiv").slideToggle();
+});
+
+});
+
+</script>
+		<!-- Scripts -->
+			<script src="staticassets/js/jquery.min.js"></script>
+			<script src="staticassets/js/jquery.scrolly.min.js"></script>
+			<script src="staticassets/js/jquery.dropotron.min.js"></script>
+			<script src="staticassets/js/jquery.scrollex.min.js"></script>
+			<script src="staticassets/js/skel.min.js"></script>
+			<script src="staticassets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="staticassets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="staticassets/js/main.js"></script>
+
+	</body>
+</html>

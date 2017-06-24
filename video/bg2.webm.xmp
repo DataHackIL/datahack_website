@@ -1,0 +1,384 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c137 79.159768, 2016/08/11-13:24:42        " rdfhash="56F2236D0DB35BABB8A66C956DEAEA29" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+    xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmpMM:InstanceID="xmp.iid:0b18abd3-8aa2-ea4f-86a8-6d922a69e820"
+   xmpMM:DocumentID="f14ccd2b-75c7-f3c1-d00c-ac660000003b"
+   xmpMM:OriginalDocumentID="xmp.did:241f87b7-9ee6-164d-804e-8aa10d1b8e5a"
+   xmp:MetadataDate="2017-05-04T19:00:23+03:00"
+   xmp:ModifyDate="2017-05-04T19:00:23+03:00"
+   xmp:CreatorTool="Adobe Premiere Pro CC 2017.0 (Windows)"
+   xmp:CreateDate="2017-05-04T18:56:41+03:00"
+   xmpDM:videoFrameRate="25.000000"
+   xmpDM:videoFieldOrder="Progressive"
+   xmpDM:videoPixelAspectRatio="1/1"
+   xmpDM:audioSampleRate="48000"
+   xmpDM:audioSampleType="Compressed"
+   xmpDM:audioChannelType="Stereo"
+   xmpDM:startTimeScale="25"
+   xmpDM:startTimeSampleSize="1"
+   dc:format="WebM">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="11e5446e-9d23-97da-ccc1-e2dc00000068"
+      stEvt:when="2017-05-04T19:00:23+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:1a47e564-59a1-ea41-86e1-debd4c8ecadc"
+      stEvt:when="2017-05-04T18:55:23+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:2be3fc8a-d0f5-4949-84f4-93219a7ece68"
+      stEvt:when="2017-05-04T19:00:23+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:0b18abd3-8aa2-ea4f-86a8-6d922a69e820"
+      stEvt:when="2017-05-04T19:00:23+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="040175ea-433d-0484-ded1-fb1f00000070"
+      stRef:documentID="6d09a825-6dbd-6dff-0b07-c0e100000043"
+      stRef:fromPart="time:325140480000f254016000000d233694720000f254016000000"
+      stRef:toPart="time:2225180160000f254016000000d233694720000f254016000000"
+      stRef:filePath="MVI_5048.MOV"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="33a638b9-20d5-b27a-29ad-2cf900000070"
+      stRef:documentID="8b447a2e-bfb1-7379-b558-01ce00000043"
+      stRef:fromPart="time:508032000000f254016000000d274337280000f254016000000"
+      stRef:toPart="time:1290401280000f254016000000d274337280000f254016000000"
+      stRef:filePath="MVI_5068.MOV"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="40e1b104-e50d-69a4-24bd-893d00000070"
+      stRef:documentID="515ecf1a-08a4-08e1-f1c1-d63500000043"
+      stRef:fromPart="time:335301120000f254016000000d346477824000f254016000000"
+      stRef:toPart="time:2458874880000f254016000000d314979840000f254016000000"
+      stRef:filePath="MVI_5046.MOV"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="66786a23-ebf1-1615-b2f3-de7700000070"
+      stRef:documentID="ef8fca4e-a872-0bec-82f1-9cc200000043"
+      stRef:fromPart="time:9815178240000f254016000000d345461760000f254016000000"
+      stRef:toPart="time:2773854720000f254016000000d345461760000f254016000000"
+      stRef:filePath="MVI_4963.MOV"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="90868c4e-e622-3f1e-7de3-aef200000070"
+      stRef:documentID="d661b396-245a-352e-516f-72f800000043"
+      stRef:fromPart="time:21063006720000f254016000000d335301120000f254016000000"
+      stRef:toPart="time:3119316480000f254016000000d335301120000f254016000000"
+      stRef:filePath="MVI_5104.MOV"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="9ac1eaa8-8e32-a0f2-b79a-293900000070"
+      stRef:documentID="9b2b74b7-5f68-1fb9-e6ca-a98100000043"
+      stRef:fromPart="time:1290401280000f254016000000d721405440000f254016000000"
+      stRef:toPart="time:568995840000f254016000000d721405440000f254016000000"
+      stRef:filePath="MVI_4974.MOV"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="9dd01807-3777-51a2-f078-d84a00000070"
+      stRef:documentID="77bbdbdb-4329-663f-c128-c1eb00000043"
+      stRef:fromPart="time:7976102400000f254016000000d396264960000f254016000000"
+      stRef:toPart="time:1564738560000f254016000000d396264960000f254016000000"
+      stRef:filePath="MVI_5160.MOV"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="c0818d02-2efb-011f-6271-4e9f00000070"
+      stRef:documentID="edbba21b-70b0-4f1c-85fe-36d400000043"
+      stRef:fromPart="time:2499517440000f254016000000d264176640000f254016000000"
+      stRef:toPart="time:1961003520000f254016000000d264176640000f254016000000"
+      stRef:filePath="MVI_5025.MOV"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="eb27be48-bc98-f735-a8c5-967000000070"
+      stRef:documentID="2668b2af-a66d-9220-07a8-9db400000043"
+      stRef:fromPart="time:2123573760000f254016000000d568995840000f254016000000"
+      stRef:toPart="time:0d568995840000f254016000000"
+      stRef:filePath="MVI_4973.MOV"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-22T20:31:26Z"
+       xmp:ModifyDate="2017-05-04T18:11:39+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:39+03:00"
+       xmpMM:InstanceID="040175ea-433d-0484-ded1-fb1f00000070"
+       xmpMM:DocumentID="6d09a825-6dbd-6dff-0b07-c0e100000043"
+       xmpMM:OriginalDocumentID="xmp.did:cadfefef-fb2a-ba4e-8226-43e687862406">
+      <xmpDM:duration
+       xmpDM:value="114000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="040175ea-433d-0484-ded1-fb1f00000070"
+         stEvt:when="2017-05-04T18:11:39+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-22T21:15:14Z"
+       xmp:ModifyDate="2017-05-04T18:11:44+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:44+03:00"
+       xmpMM:InstanceID="33a638b9-20d5-b27a-29ad-2cf900000070"
+       xmpMM:DocumentID="8b447a2e-bfb1-7379-b558-01ce00000043"
+       xmpMM:OriginalDocumentID="xmp.did:e1363cfe-8bc9-c34d-afcd-9229c4249d35">
+      <xmpDM:duration
+       xmpDM:value="517000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="33a638b9-20d5-b27a-29ad-2cf900000070"
+         stEvt:when="2017-05-04T18:11:44+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-22T20:30:20Z"
+       xmp:ModifyDate="2017-05-04T18:11:39+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:39+03:00"
+       xmpMM:InstanceID="40e1b104-e50d-69a4-24bd-893d00000070"
+       xmpMM:DocumentID="515ecf1a-08a4-08e1-f1c1-d63500000043"
+       xmpMM:OriginalDocumentID="xmp.did:2a410481-f300-974e-9cc4-1f618e7bdf5a">
+      <xmpDM:duration
+       xmpDM:value="332000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="40e1b104-e50d-69a4-24bd-893d00000070"
+         stEvt:when="2017-05-04T18:11:39+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-22T10:30:28Z"
+       xmp:ModifyDate="2017-05-04T18:11:31+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:31+03:00"
+       xmpMM:InstanceID="66786a23-ebf1-1615-b2f3-de7700000070"
+       xmpMM:DocumentID="ef8fca4e-a872-0bec-82f1-9cc200000043"
+       xmpMM:OriginalDocumentID="xmp.did:ef2f276b-8c0c-824e-8b2a-0fca1b32e565">
+      <xmpDM:duration
+       xmpDM:value="1047000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="66786a23-ebf1-1615-b2f3-de7700000070"
+         stEvt:when="2017-05-04T18:11:31+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-23T09:18:57Z"
+       xmp:ModifyDate="2017-05-04T18:11:48+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:48+03:00"
+       xmpMM:InstanceID="90868c4e-e622-3f1e-7de3-aef200000070"
+       xmpMM:DocumentID="d661b396-245a-352e-516f-72f800000043"
+       xmpMM:OriginalDocumentID="xmp.did:befc3833-b101-3e41-8ed9-176113ecd455">
+      <xmpDM:duration
+       xmpDM:value="2547000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="90868c4e-e622-3f1e-7de3-aef200000070"
+         stEvt:when="2017-05-04T18:11:48+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-22T10:40:05Z"
+       xmp:ModifyDate="2017-05-04T18:11:34+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:34+03:00"
+       xmpMM:InstanceID="9ac1eaa8-8e32-a0f2-b79a-293900000070"
+       xmpMM:DocumentID="9b2b74b7-5f68-1fb9-e6ca-a98100000043"
+       xmpMM:OriginalDocumentID="xmp.did:3bc6b4fd-f5e6-4547-92cc-a21086d72d95">
+      <xmpDM:duration
+       xmpDM:value="299000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="9ac1eaa8-8e32-a0f2-b79a-293900000070"
+         stEvt:when="2017-05-04T18:11:34+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-23T11:55:22Z"
+       xmp:ModifyDate="2017-05-04T18:11:52+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:52+03:00"
+       xmpMM:InstanceID="9dd01807-3777-51a2-f078-d84a00000070"
+       xmpMM:DocumentID="77bbdbdb-4329-663f-c128-c1eb00000043"
+       xmpMM:OriginalDocumentID="xmp.did:78bca93f-7abb-2b49-a538-ce9762a7434d">
+      <xmpDM:duration
+       xmpDM:value="966000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="9dd01807-3777-51a2-f078-d84a00000070"
+         stEvt:when="2017-05-04T18:11:52+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-22T10:46:29Z"
+       xmp:ModifyDate="2017-05-04T18:11:35+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:35+03:00"
+       xmpMM:InstanceID="c0818d02-2efb-011f-6271-4e9f00000070"
+       xmpMM:DocumentID="edbba21b-70b0-4f1c-85fe-36d400000043"
+       xmpMM:OriginalDocumentID="xmp.did:6a3c31a2-209f-5141-b412-1386f5872a21">
+      <xmpDM:duration
+       xmpDM:value="446000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="c0818d02-2efb-011f-6271-4e9f00000070"
+         stEvt:when="2017-05-04T18:11:35+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2016-09-22T10:39:21Z"
+       xmp:ModifyDate="2017-05-04T18:11:34+03:00"
+       xmp:MetadataDate="2017-05-04T18:11:34+03:00"
+       xmpMM:InstanceID="eb27be48-bc98-f735-a8c5-967000000070"
+       xmpMM:DocumentID="2668b2af-a66d-9220-07a8-9db400000043"
+       xmpMM:OriginalDocumentID="xmp.did:cef0fc3f-4d2d-c145-bc4a-2d6770609903">
+      <xmpDM:duration
+       xmpDM:value="495000"
+       xmpDM:scale="1/25000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="eb27be48-bc98-f735-a8c5-967000000070"
+         stEvt:when="2017-05-04T18:11:34+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro CC 2017.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:1a47e564-59a1-ea41-86e1-debd4c8ecadc"
+    stRef:documentID="xmp.did:1a47e564-59a1-ea41-86e1-debd4c8ecadc"
+    stRef:originalDocumentID="xmp.did:1a47e564-59a1-ea41-86e1-debd4c8ecadc"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"
+    creatorAtom:uncProjectPath="\\?\E:\datahack\2016\doco\video\video_1.prproj"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:videoFrameSize
+    stDim:w="1280"
+    stDim:h="720"
+    stDim:unit="pixel"/>
+   <xmpDM:duration
+    xmpDM:value="340"
+    xmpDM:scale="1/25"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="25Timecode"
+    xmpDM:timeValue="00:00:00:00"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:00:00"
+    xmpDM:timeFormat="25Timecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
