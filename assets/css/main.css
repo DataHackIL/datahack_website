@@ -3926,3 +3926,10 @@
 @media all and (max-width: 959px) {
     .mobileHide{display:none;}
 }
+.icon-mage {
+	height: 15%;
+}
+
+.icon-image {
+	max-height: 150px;
+}
