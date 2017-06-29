@@ -1345,7 +1345,7 @@
 			-webkit-column-gap: 2em;
 			-ms-column-gap: 2em;
 			column-gap: 2em;
-			text-align: justiy;
+			text-align: left;
 		}
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
