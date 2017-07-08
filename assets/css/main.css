@@ -3170,7 +3170,7 @@
     .deskHide { display:none !important; }
 }
 @media all and (max-width: 959px) {
-    .mobileHide{display:none;}
+    .mobileHide{display:none; visibility:hidden; height: 0; }
 }
 .icon-mage {
 	height: 15%;
