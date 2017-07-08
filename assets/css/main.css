@@ -3200,8 +3200,7 @@
 .our-team .pic{
     position: relative;
     overflow:hidden;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+   	-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
     border-radius: 50%;
     width: 100%;
     padding-top: 100%; /* 1:1 Aspect Ratio */
