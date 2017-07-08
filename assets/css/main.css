@@ -3258,7 +3258,7 @@
     text-decoration:none;
 }
 .our-team .social-link li a.fa-linkedin:hover{
-    color:#f43763;
+    color:#f43763 !important;
 }
 
 .our-team .team-content{
