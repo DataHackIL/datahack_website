@@ -2354,9 +2354,6 @@
 			margin-left: 2em;
 			padding: 0;
 		}
-			.theteam li:nth-child(1), .theteam li:nth-child(2), .theteam li:nth-child(3) {
-				margin-top: 0;
-			}
 			.theteam li > :last-child {
 				margin-bottom: 0;
 			}
@@ -3186,10 +3183,10 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: space-between;
-	
+
 }
 
-.item 
+.item
 	 align-self: center;
 }
 
@@ -3204,10 +3201,17 @@
     position: relative;
     overflow:hidden;
     border-radius: 50%;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
 }
 .our-team .pic img{
     width: 100%;
     height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 .our-team .over-layer{
     position: absolute;
@@ -3268,7 +3272,7 @@
 }
 .our-team .post-title:after{
     content: "";
-   
+
     display: block;
     margin: 15px auto;
 }
