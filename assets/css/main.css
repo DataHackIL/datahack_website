@@ -3293,3 +3293,14 @@ hr.style1 {
   background-image: -ms-linear-gradient(left, #fff, #e7e7e7, #fff);
   background-image: -o-linear-gradient(left, #fff, #e7e7e7, #fff); 
 }
+
+.overlay-img {
+	position: relative; 
+}
+
+.overlay-fix { 
+    position: absolute;
+    top: 38px;
+    left: -120px;
+    width: 100%;
+}
