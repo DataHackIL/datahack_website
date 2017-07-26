@@ -3179,11 +3179,12 @@
 	max-height: 150px;
 }
 .flex-cont {
+	padding-bottom: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: space-between;
-
+	align-items: center;
 }
 
 .item
@@ -3276,4 +3277,19 @@
 
     display: block;
     margin: 15px auto;
+}
+
+.absul{
+	position: absolute;
+}
+hr.style1 { 
+  border: 0; 
+	margin: 0 auto;
+	margin-bottom: 15px;
+  width: 50%;
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #fff, #e7e7e7, #fff);
+  background-image: -moz-linear-gradient(left, #fff, #e7e7e7, #fff);
+  background-image: -ms-linear-gradient(left, #fff, #e7e7e7, #fff);
+  background-image: -o-linear-gradient(left, #fff, #e7e7e7, #fff); 
 }
