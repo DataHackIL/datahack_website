@@ -3300,7 +3300,10 @@ hr.style1 {
 
 .overlay-fix { 
     position: absolute;
-    top: 38px;
-    left: -120px;
+    top: 34px;
+    left: -100px;
     width: 100%;
+	font-size: 13px;
+	color: #50cec1 !important;	
+	
 }
