@@ -1275,10 +1275,14 @@
 	}
 	body {
 		background-color: #16bead;
-		background-image: url("images/overlay.png"), /* -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
-		background-image: url("images/overlay.png"), /* -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
-		background-image: url("images/overlay.png"), /* -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
-		background-image: url("images/overlay.png"), /* linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		background-image: url("images/overlay.png");
+		/* -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-image: url("images/overlay.png"),  */
+		/* -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-image: url("images/overlay.png"),  */
+		/* -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-image: url("images/overlay.png"),  */
+		/* linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 	}
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
@@ -2330,8 +2334,6 @@
 						margin-top: 2em;
 					}
 		}
-
-
 .theteam {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2375,7 +2377,6 @@
 					margin-left: 0;
 					margin-top: 2em;
 					margin-right: 1em;
-
 				}
 					.theteam li:nth-child(2), .theteam li:nth-child(3) {
 						margin-top: 2em;
@@ -3186,11 +3187,9 @@
 	align-content: space-between;
 	align-items: center;
 }
-
-.item
+.item {
 	 align-self: center;
 }
-
 .item {
 	align-self: center;
 }
@@ -3262,7 +3261,6 @@
 .our-team .social-link li a.fa-linkedin:hover{
     color:#f43763 !important;
 }
-
 .our-team .team-content{
     padding-top:12px;
 }
@@ -3274,36 +3272,31 @@
 }
 .our-team .post-title:after{
     content: "";
-
     display: block;
     margin: 15px auto;
 }
-
 .absul{
 	position: absolute;
 }
-hr.style1 { 
-  border: 0; 
+hr.style1 {
+  border: 0;
 	margin: 0 auto;
 	margin-bottom: 15px;
   width: 50%;
-  height: 1px; 
+  height: 1px;
   background-image: -webkit-linear-gradient(left, #fff, #e7e7e7, #fff);
   background-image: -moz-linear-gradient(left, #fff, #e7e7e7, #fff);
   background-image: -ms-linear-gradient(left, #fff, #e7e7e7, #fff);
-  background-image: -o-linear-gradient(left, #fff, #e7e7e7, #fff); 
+  background-image: -o-linear-gradient(left, #fff, #e7e7e7, #fff);
 }
-
 .overlay-img {
-	position: relative; 
+	position: relative;
 }
-
-.overlay-fix { 
+.overlay-fix {
     position: absolute;
     top: 34px;
     left: -100px;
     width: 100%;
 	font-size: 13px;
-	color: #50cec1 !important;	
-	
+	color: #50cec1 !important;
 }
