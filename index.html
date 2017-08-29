@@ -17,8 +17,16 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<meta property="og:image" content="images/facebook.jpg" />
-<meta property="og:image:width" content="1888" />
-<meta property="og:image:height" content="789" />
+		<meta property="og:image:width" content="1888" />
+		<meta property="og:image:height" content="789" />
+        <script type="text/javascript">
+		var cards = $(".our-team");
+		for(var i = 0; i < cards.length; i++){
+			var target = Math.floor(Math.random() * cards.length -1) + 1;
+			var target2 = Math.floor(Math.random() * cards.length -1) +1;
+			cards.eq(target).before(cards.eq(target2));
+		}
+        </script>
 	</head>
 	<body>
 
@@ -240,9 +248,9 @@
 												<!--<div class="item"><span class=""><img src="images/sponsor/final-color.png" onmouseover="this.src='images/sponsor/final.png'" onmouseout="this.src='images/sponsor/final-color.png'"/></span></div> -->
 												<div class="item"><span class=""><img src="images/sponsor/istra_color.png" onmouseover="this.src='images/sponsor/istra.png'" onmouseout="this.src='images/sponsor/istra_color.png'"/></span></div>
 												<div class="item"><span class=""><img src="images/sponsor/zencity_color.png" onmouseover="this.src='images/sponsor/zencity.png'" onmouseout="this.src='images/sponsor/zencity_color.png'"/></span></div>
-												
+
 										</div>
-										
+
 
 										<h2>Our partners</h2>
 										<div class="flex-cont row 100% uniform">
@@ -253,7 +261,7 @@
 												<div class="item"><span class=""><img src="images/sponsor/harli_color.png" onmouseover="this.src='images/sponsor/harli.png'" onmouseout="this.src='images/sponsor/harli_color.png'"/></span></div>
 												<div class="item"><span class=""><img src="images/sponsor/jnext_color.png" onmouseover="this.src='images/sponsor/jnext.png'" onmouseout="this.src='images/sponsor/jnext_color.png'"/></span></div>
 												<div class="item"><span class=""><img src="images/sponsor/made_color.png" onmouseover="this.src='images/sponsor/made.png'" onmouseout="this.src='images/sponsor/made_color.png'"/></span></div>
-												<div class="item"><span class=""><img src="images/sponsor/her-color.png" onmouseover="this.src='images/sponsor/her.png'" onmouseout="this.src='images/sponsor/her-color.png'"/></span></div> 
+												<div class="item"><span class=""><img src="images/sponsor/her-color.png" onmouseover="this.src='images/sponsor/her.png'" onmouseout="this.src='images/sponsor/her-color.png'"/></span></div>
 										</div>
 
 
