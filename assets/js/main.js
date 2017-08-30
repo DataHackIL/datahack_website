@@ -89,6 +89,9 @@
 
 							var	$this = $(this),
 								id = $this.attr('href'),
+								if (your_string.indexOf('/') > -1){
+									id = id.replace('/', '\\/')
+								}
 								$section = $(id);
 
 							// No section for this link? Bail.
