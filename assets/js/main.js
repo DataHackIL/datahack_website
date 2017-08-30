@@ -89,7 +89,7 @@
 
 							var	$this = $(this);
 							var id = $this.attr('href');
-							if (your_string.indexOf('/') > -1){
+							if (id.indexOf('/') > -1){
 								id = id.replace('/', '\\/')
 							}
 							var $section = $(id);
