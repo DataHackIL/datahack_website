@@ -22,6 +22,7 @@
         </script>
 		<script>
 
+			window.console&&console.log('Defining shuffle function...');
 			function shuffle(array) {
 				var currentIndex = array.length, temporaryValue, randomIndex;
 				// While there remain elements to shuffle...
@@ -39,12 +40,14 @@
 
 			var team_members = $(".our-team");
 			// Removing all elements
+			window.console&&console.log('Removing all team members...');
 			for(var i = 0; i < team_members.length; i++){
 				element = team_members[i];
 				// element.parent().removeChild(element);
 				element.remove()
 			}
 			// Randomising the array order
+			window.console&&console.log('Shuffling...');
 			team_members = shuffle(team_members)
 			// for(var i = 0; i < team_members.length; i++){
 			// 	var target = Math.floor(Math.random() * team_members.length -1) + 1;
@@ -53,12 +56,14 @@
 			// }
 			// Putting elements back in
 			// The parent object is id="Team"
+			window.console&&console.log('Reinserting...');
 			team_div = document.getElementById("Team")
 			for(var i = 0; i < team_members.length; i++){
 				team_member = team_members[i];
 				// team_div.appendChild(team_member);
 				team_div.append(team_member);
 			}
+			window.console&&console.log('Done');
         </script>
 	</head>
 	<body>
