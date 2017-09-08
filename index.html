@@ -19,12 +19,26 @@
 		<meta property="og:image" content="images/facebook.jpg" />
 		<meta property="og:image:width" content="1888" />
 		<meta property="og:image:height" content="789" />
+		<!-- Randomize team members order  -->
         <script type="text/javascript" src="assets/js/jquery.min.js">
-			var cards = $(".our-team");
-			for(var i = 0; i < cards.length; i++){
-				var target = Math.floor(Math.random() * cards.length -1) + 1;
-				var target2 = Math.floor(Math.random() * cards.length -1) +1;
-				cards.eq(target).before(cards.eq(target2));
+			var team_members = $(".our-team");
+			// Removing all elements
+			for(var i = 0; i < team_members.length; i++){
+				element = team_members[i];
+				element.parentNode.removeChild(element);
+			}
+			// Randomising the array order
+			for(var i = 0; i < team_members.length; i++){
+				var target = Math.floor(Math.random() * team_members.length -1) + 1;
+				var target2 = Math.floor(Math.random() * team_members.length -1) +1;
+				team_members.eq(target).before(team_members.eq(target2));
+			}
+			// Putting elements back in
+			// The parent object is id="Team"
+			team_div = document.getElementById("Team")
+			for(var i = 0; i < team_members.length; i++){
+				team_member = team_members[i];
+				team_div.appendChild(team_member);
 			}
         </script>
 	</head>
