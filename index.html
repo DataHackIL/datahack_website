@@ -38,7 +38,9 @@
 				return array;
 			}
 
+			window.console&&console.log('Team members array:');
 			var team_members = $(".our-team");
+			window.console&&console.log(team_members);
 			// Removing all elements
 			window.console&&console.log('Removing all team members...');
 			for(var i = 0; i < team_members.length; i++){
@@ -56,6 +58,8 @@
 			// }
 			// Putting elements back in
 			// The parent object is id="Team"
+			window.console&&console.log('Team members array:');
+			var team_members = $(".our-team");
 			window.console&&console.log('Reinserting...');
 			team_div = document.getElementById("Team")
 			for(var i = 0; i < team_members.length; i++){
