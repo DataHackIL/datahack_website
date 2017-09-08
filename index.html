@@ -6,9 +6,7 @@
 -->
 <html>
 	<head>
-		<link rel="icon"
-      type="image/ico"
-      href="images/fav.ico">
+		<link rel="icon" type="image/ico" href="images/fav.ico">
 		<title>DataHack 2017</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,24 +19,22 @@
 		<meta property="og:image:height" content="789" />
 		<!-- Randomize team members order  -->
 		<script type="text/javascript" src="assets/js/jquery.min.js">
+        </script>
+		<script type="text/javascript">
 
 			function shuffle(array) {
-			var currentIndex = array.length, temporaryValue, randomIndex;
-
-			// While there remain elements to shuffle...
-			while (0 !== currentIndex) {
-
-				// Pick a remaining element...
-				randomIndex = Math.floor(Math.random() * currentIndex);
-				currentIndex -= 1;
-
-				// And swap it with the current element.
-				temporaryValue = array[currentIndex];
-				array[currentIndex] = array[randomIndex];
-				array[randomIndex] = temporaryValue;
-			}
-
-			return array;
+				var currentIndex = array.length, temporaryValue, randomIndex;
+				// While there remain elements to shuffle...
+				while (0 !== currentIndex) {
+					// Pick a remaining element...
+					randomIndex = Math.floor(Math.random() * currentIndex);
+					currentIndex -= 1;
+					// And swap it with the current element.
+					temporaryValue = array[currentIndex];
+					array[currentIndex] = array[randomIndex];
+					array[randomIndex] = temporaryValue;
+				}
+				return array;
 			}
 
 			var team_members = $(".our-team");
