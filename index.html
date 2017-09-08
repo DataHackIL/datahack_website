@@ -38,36 +38,42 @@
 				return array;
 			}
 
-			window.console&&console.log('Team members array:');
-			var team_members = $(".our-team");
-			window.console&&console.log(team_members);
-			// Removing all elements
-			window.console&&console.log('Removing all team members...');
-			for(var i = 0; i < team_members.length; i++){
-				element = team_members[i];
-				// element.parent().removeChild(element);
-				element.remove()
+			function shuffle_team() {
+				window.console&&console.log('Team members array:');
+				var team_members = $(".our-team");
+				window.console&&console.log(team_members);
+				// Removing all elements
+				window.console&&console.log('Removing all team members...');
+				for(var i = 0; i < team_members.length; i++){
+					element = team_members[i];
+					// element.parent().removeChild(element);
+					element.remove()
+				}
+				// Randomising the array order
+				window.console&&console.log('Shuffling...');
+				team_members = shuffle(team_members)
+				// for(var i = 0; i < team_members.length; i++){
+				// 	var target = Math.floor(Math.random() * team_members.length -1) + 1;
+				// 	var target2 = Math.floor(Math.random() * team_members.length -1) +1;
+				// 	team_members.eq(target).before(team_members.eq(target2));
+				// }
+				// Putting elements back in
+				// The parent object is id="Team"
+				window.console&&console.log('Team members array:');
+				var team_members = $(".our-team");
+				window.console&&console.log('Reinserting...');
+				team_div = document.getElementById("Team")
+				for(var i = 0; i < team_members.length; i++){
+					team_member = team_members[i];
+					// team_div.appendChild(team_member);
+					team_div.append(team_member);
+				}
+				window.console&&console.log('Done');
 			}
-			// Randomising the array order
-			window.console&&console.log('Shuffling...');
-			team_members = shuffle(team_members)
-			// for(var i = 0; i < team_members.length; i++){
-			// 	var target = Math.floor(Math.random() * team_members.length -1) + 1;
-			// 	var target2 = Math.floor(Math.random() * team_members.length -1) +1;
-			// 	team_members.eq(target).before(team_members.eq(target2));
-			// }
-			// Putting elements back in
-			// The parent object is id="Team"
-			window.console&&console.log('Team members array:');
-			var team_members = $(".our-team");
-			window.console&&console.log('Reinserting...');
-			team_div = document.getElementById("Team")
-			for(var i = 0; i < team_members.length; i++){
-				team_member = team_members[i];
-				// team_div.appendChild(team_member);
-				team_div.append(team_member);
-			}
-			window.console&&console.log('Done');
+
+			$(document).load(function () {
+				shuffle_team()
+			});
         </script>
 	</head>
 	<body>
