@@ -3300,3 +3300,16 @@ hr.style1 {
 	font-size: 13px;
 	color: #50cec1 !important;
 }
+
+#timer {
+  font-size: 20px;
+  color: #16bead;
+  letter-spacing: -1px;
+}
+#timer span {
+  font-size: 60px;
+  color: #16bead;
+  margin: 0 3px 0 15px;
+}
+#timer span:first-child {
+  margin-left: 0;

@@ -44,18 +44,43 @@
 						<li><a href="#Challenges">Challenges</a></li>
 						<li><a href="#sponsor">Sponsor us</a></li>
 						<li><a href="#footer">Stay tuned</a></li>
-						<li><a class="menured" href="2016/index.html" target="_blank">2016 Website</a></li>
+						<li><a class="menured" href="/register" target="_blank">Register now!</a></li>
 					</ul>
 				</nav>
 
 			<!-- Main -->
 				<div id="main">
 
+						<!-- about -->
+						<section id="reg" class="main special justify">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major align-center">
+									
+										<h2>Registration is open!</h2>
+									</header>
+									<h2> You don't have to be a data scientist,<br> or to have a team! What are you waiting for? :)</h2>
+
+
+							<a href="/register"  target="_blank"  class="button reds special big" >Register now!</a>
+							<br><br>
+							<h3> Registration closes on October 13th!</h3>
+							<div id="timer">
+							  <span id="days"></span>days
+							  <span id="hours"></span>hours
+							  <span id="minutes"></span>minutes
+							  <span id="seconds"></span>seconds
+							</div>
+								</div>
+								</div>
+								
+						</section>
 					<!-- about -->
 						<section id="about" class="main special justify">
 							<div class="spotlight">
 								<div class="content">
 									<header class="major align-center">
+									
 										<h2>What is DataHack?</h2>
 									</header>
 									<p class="content" >DataHack is the first data-driven hackathon in Israel, designed to bring together the Israeli data community. The hackathon is a 48-hours event where data enthusiatic programmers, designers and researchers combine their skills to build innovative solutions for real world problems.
@@ -746,5 +771,44 @@
 			// 	shuffle_team()
 			// });
         </script>
+        
+        <script type="text/javascript">
+var timer;
+
+var compareDate = new Date("October 13, 2017 23:59:00");
+// compareDate.setDate(compareDate.getDate() + 7.5); //just for this demo today + 7 days
+
+timer = setInterval(function() {
+  timeBetweenDates(compareDate);
+}, 1000);
+
+function timeBetweenDates(toDate) {
+  var dateEntered = toDate;
+  var now = new Date();
+  var difference = dateEntered.getTime() - now.getTime();
+
+  if (difference <= 0) {
+
+    // Timer done
+    clearInterval(timer);
+
+  } else {
+
+    var seconds = Math.floor(difference / 1000);
+    var minutes = Math.floor(seconds / 60);
+    var hours = Math.floor(minutes / 60);
+    var days = Math.floor(hours / 24);
+
+    hours %= 24;
+    minutes %= 60;
+    seconds %= 60;
+
+    $("#days").text(days);
+    $("#hours").text(hours);
+    $("#minutes").text(minutes);
+    $("#seconds").text(seconds);
+  }
+}
+</script>
 	</body>
 </html>
