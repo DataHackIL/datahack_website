@@ -3312,4 +3312,8 @@ hr.style1 {
   margin: 0 3px 0 15px;
 }
 #timer span:first-child {
-  margin-left: 0;
+	margin-left: 0;}
+	
+.image-link {
+		border-bottom:none;
+	}	
