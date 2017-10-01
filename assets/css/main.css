@@ -3317,3 +3317,12 @@ hr.style1 {
 .image-link {
 		border-bottom:none;
 	}	
+
+.glyphiconwhitesmall {
+    font-size: 30px;
+    color: #16bead;
+}
+.glyphiconwhite {
+    font-size: 70px;
+    color: #ff668b;
+}
